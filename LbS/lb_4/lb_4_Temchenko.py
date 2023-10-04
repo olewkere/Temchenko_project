@@ -92,4 +92,15 @@ while layer <= blocks:
     height += 1
     blocks -= layer
     layer += 1
-print(f"Height of piramid {height}")
+print(f"The height of the pyramid {height}")
+
+c0 = int(input("Input natural number: "))
+steps = 0
+while c0 != 1:
+    if c0 % 2 == 0:
+        c0 = c0 // 2
+    else:
+        c0 = 3 * c0 + 1
+    steps += 1
+    print(c0)
+print(f"Steps: {steps}")
