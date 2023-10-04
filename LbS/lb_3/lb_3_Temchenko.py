@@ -31,7 +31,7 @@ print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 x = [0, 1, -1]
 for x in x:
     y = 3 * x**3 - 2 * x**2 + 3 * x - 1
-    print(f"\nFor x = {x}, y = {y}\n")
+    print(f"For x = {x}, y = {y}")
 
 # this program computes the number of seconds in a given number of hours
 hours = 2
