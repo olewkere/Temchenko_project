@@ -1,3 +1,4 @@
+
 # def mysplit(string):
 #     string = string.lstrip() # метод strip() не змінює об'єкт, а створює копію!
 
