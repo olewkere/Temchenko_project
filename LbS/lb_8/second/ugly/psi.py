@@ -1,0 +1,2 @@
+def funP():
+    pass

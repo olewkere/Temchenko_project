@@ -1,0 +1,2 @@
+def funB():
+    return "beta"
